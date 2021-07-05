@@ -12,7 +12,12 @@
     <router-link to="/databindingattr">DataBindingAttr</router-link> |
     <router-link to="/databindingbutton">DataBindingButton</router-link> | <br>
     <router-link to="/databindinglist">DataBindingList</router-link> |
-    <router-link to="/databindingselect">DataBindingSelect</router-link>
+    <router-link to="/databindingif">DataBindingIf</router-link> |
+    <router-link to="/databindingselect">DataBindingSelect</router-link> |<br>
+    <router-link to="/eventclick">EventClick</router-link> |
+    <router-link to="/eventkey">EventKey</router-link> |
+    <router-link to="/computed">Computed</router-link> |
+    <router-link to="/watch">Watch</router-link>
   </div>
   <router-view/>
 </template>

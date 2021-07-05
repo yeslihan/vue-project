@@ -11,6 +11,12 @@ import DataBindingRadio from '../views/DataBindingRadio.vue'
 import DataBindingAttr from '../views/DataBindingAttr.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
 import DataBindingList from '../views/DataBindingList.vue'
+import DataBindingIf from '../views/DataBindingIf.vue'
+import EventClick from '../views/EventClick.vue'
+import EventKey from '../views/EventKey.vue'
+import Watch from '../views/Watch.vue'
+import Computed from '../views/Computed.vue'
+
 
 const routes = [
   {
@@ -81,6 +87,31 @@ const routes = [
     path: '/databindinglist',
     name: 'DataBindingList',
     component: DataBindingList
+  },
+  {
+    path: '/databindingif',
+    name: 'DataBindingIf',
+    component: DataBindingIf
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventkey',
+    name: 'EventKey',
+    component: EventKey
+  },
+  {
+    path: '/computed',
+    name: 'Computed',
+    component: Computed
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: Watch
   }
 ]
 
