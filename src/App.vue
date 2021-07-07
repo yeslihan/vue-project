@@ -2,7 +2,9 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/databinding">DataBinding</router-link> |
+    <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/compositionapi">CompositionAPI</router-link>
+    <!-- <router-link to="/databinding">DataBinding</router-link> |
     <router-link to="/databindinghtml">DataBindingHtml</router-link> |
     <router-link to="/databindinginputtext">DataBindingInputText</router-link> |
     <router-link to="/databindinginputnumber">DataBindingInputNumber</router-link> |<br>
@@ -17,7 +19,12 @@
     <router-link to="/eventclick">EventClick</router-link> |
     <router-link to="/eventkey">EventKey</router-link> |
     <router-link to="/computed">Computed</router-link> |
-    <router-link to="/watch">Watch</router-link>
+    <router-link to="/watch">Watch</router-link> |
+    <router-link to="/axioslist">AxiosList</router-link> |
+    <router-link to="/nestedcomponent">NestedComponent</router-link> |
+    <router-link to="/parentcomponent">ParentComponent</router-link> |
+    <router-link to="/slotusemodallayout">SlotUseModalLayout</router-link> |
+    <router-link to="/provideinject">ProvideInject</router-link> -->
   </div>
   <router-view/>
 </template>
