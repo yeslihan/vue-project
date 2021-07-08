@@ -23,6 +23,7 @@ import Home from '../views/Home.vue'
 // import ProvideInject from '../views/ProvideInject'
 import Calculator from '../views/Calculator'
 import CompositionAPI from '../views/CompositionAPI'
+import Mixins from '../views/Mixins'
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     path:'/compositionapi',
     name: 'CompositionAPI',
     component: CompositionAPI
+  },
+  {
+    path:'/mixins',
+    name: 'Mixins',
+    component: Mixins
   }
   /*
   {

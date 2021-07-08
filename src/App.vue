@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/calculator">Calculator</router-link> |
-    <router-link to="/compositionapi">CompositionAPI</router-link>
+    <router-link to="/compositionapi">CompositionAPI</router-link> |
+    <router-link to="/mixins">Mixins</router-link>
     <!-- <router-link to="/databinding">DataBinding</router-link> |
     <router-link to="/databindinghtml">DataBindingHtml</router-link> |
     <router-link to="/databindinginputtext">DataBindingInputText</router-link> |
