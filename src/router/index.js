@@ -21,9 +21,10 @@ import Home from '../views/Home.vue'
 // import ParentComponent from '../views/ParentComponent'
 // import SlotUseModalLayout from '../views/SlotUseModalLayout'
 // import ProvideInject from '../views/ProvideInject'
-import Calculator from '../views/Calculator'
-import CompositionAPI from '../views/CompositionAPI'
-import Mixins from '../views/Mixins'
+import Calculator from '../views/Calculator';
+import CompositionAPI from '../views/CompositionAPI';
+import Mixins from '../views/Mixins';
+import StoreAccess from '../views/StoreAccess';
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path:'/mixins',
     name: 'Mixins',
     component: Mixins
+  },
+  {
+    path:'/storeaccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
   /*
   {
